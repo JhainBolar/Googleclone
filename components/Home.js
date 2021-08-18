@@ -4,9 +4,6 @@ import  Link  from 'next/link';
 import { GrApps } from "react-icons/gr";
 import { BsPeopleCircle } from 'react-icons/bs';
 import Search from '../components/Search';
-import img from 'next/image';
-
-
 
 function Home() {
     return (

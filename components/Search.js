@@ -1,4 +1,5 @@
 import React from 'react'
+import React from 'react';
 import styles from '../components/styles/Search.module.css';
 import { IoIosSearch } from 'react-icons/Io';
 import { BsMicFill } from 'react-icons/Bs';
@@ -14,7 +15,7 @@ function Search() {
             </div>
             <div className={styles.search__buttons}>
                  <button>Google Search</button> 
-                <button variant='outlined' >I'm Feeling Lucky</button>
+                <button>I'm Feeling Lucky</button>
             </div>
 
             
