@@ -1,5 +1,4 @@
 import React from 'react'
-import React from 'react';
 import styles from '../components/styles/Search.module.css';
 import { IoIosSearch } from 'react-icons/Io';
 import { BsMicFill } from 'react-icons/Bs';
