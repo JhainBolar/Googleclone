@@ -14,7 +14,7 @@ function Search() {
             </div>
             <div className={styles.search__buttons}>
                  <button>Google Search</button> 
-                 <button>I'm Feeling Lucky</button> 
+                 <button>I'm Feeeling Lucky</button> 
             </div>
 
             
