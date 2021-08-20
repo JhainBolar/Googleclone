@@ -4,7 +4,8 @@ import  Link  from 'next/link';
 import { GrApps } from "react-icons/gr";
 import { BsPeopleCircle } from 'react-icons/bs';
 import Search from '../components/Search';
-import img from 'next/image';
+import Image from 'next/image';
+import googleimage from '../public/googleimage.png';
 function Home() {
     return (
     
@@ -27,8 +28,7 @@ function Home() {
         </div>
         </div>
         <div className={styles.home__body}>
-            {/* <img
-             src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt='Opor' />  */}
+            <img src={googleimage} alt="Picture of google" />
         <div className='home__body__inputcontainer'>
        <Search /> 
         </div>
