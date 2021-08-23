@@ -4,6 +4,11 @@ import styles from '../components/styles/Search.module.css';
  import { BsMicFill } from 'react-icons/bs';
 
 function Search() {
+    const search = e => {
+        e.preventDefault();
+    }
+}
+
     return (
         <div>
             <div className={styles.search}>
@@ -13,7 +18,7 @@ function Search() {
             <BsMicFill size={25} />
             </div>
             <div className={styles.search__buttons}>
-                 <button>Google Search</button> 
+                 <button onClick={search} >Google Search</button> 
                  <button>I'm Feeeling Lucky</button> 
             </div>
 
@@ -21,7 +26,7 @@ function Search() {
         </div>
         </div>
     )
-}
+
 
 export default Search;
 
