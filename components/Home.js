@@ -4,12 +4,11 @@ import  Link  from 'next/link';
 import { GrApps } from "react-icons/gr";
 import { BsPeopleCircle } from 'react-icons/bs';
 import Search from '../components/Search';
-import Image from 'next/image';
-import googleimage from '../public/googleimage.png';
+import images from '../public/static/googleImage.png'
 function Home() {
     return (
     
-             <div className={styles.home}>
+         <div className={styles.home}>
         <div className={styles.home__header}>
         <div className={styles.home__headerLeft}>
              <Link href='/about'>About</Link>
@@ -28,16 +27,14 @@ function Home() {
         </div>
         </div>
         <div className={styles.home__body}>
-            <img src={googleimage} alt="Picture of google" />
-        <div className='home__body__inputcontainer'>
+        <img src='../public/static/googleImage.png' alt="google Image" />
        <Search /> 
         </div>
         
         </div>
 
 
-        </div>
-    
+            
     )
 }
 
