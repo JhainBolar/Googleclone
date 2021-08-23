@@ -28,7 +28,7 @@ function Home() {
         </div>
         </div>
         <div className={styles.home__body}>
-        <Img src={images} alt="google Image" />
+        <Img src={images} alt="google Image" ></Img>I
        <Search /> 
         </div>
         
