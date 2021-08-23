@@ -28,7 +28,7 @@ function Home() {
         </div>
         </div>
         <div className={styles.home__body}>
-        <Img src={images} alt="google Image" ></Img>I
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google Image" />
        <Search /> 
         </div>
         
